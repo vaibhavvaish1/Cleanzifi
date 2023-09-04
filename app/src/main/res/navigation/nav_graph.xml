@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splash_main">
+
+    <fragment
+        android:id="@+id/splash_main"
+        android:name="com.infinitesolutions.cleanzifi.UI.Fragments.Splash_main"
+        android:label="fragment_splash_main"
+        tools:layout="@layout/fragment_splash_main" >
+        <action
+            android:id="@+id/action_splash_main_to_splash_slider"
+            app:destination="@id/splash_slider" />
+    </fragment>
+    <fragment
+        android:id="@+id/splash_slider"
+        android:name="com.infinitesolutions.cleanzifi.UI.Fragments.Splash_slider"
+        android:label="fragment_splash_slider"
+        tools:layout="@layout/fragment_splash_slider" />
+</navigation>

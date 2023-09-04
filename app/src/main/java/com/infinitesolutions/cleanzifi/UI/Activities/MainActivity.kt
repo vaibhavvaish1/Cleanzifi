@@ -1,7 +1,8 @@
-package com.infinitesolutions.cleanzifi
+package com.infinitesolutions.cleanzifi.UI.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.infinitesolutions.cleanzifi.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
